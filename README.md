@@ -1,3 +1,0 @@
-karpinskidonskoy
-================
-bla bla

@@ -13,7 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:text="@string/jacek_karpinski"
+        android:text="@string/mikhail_donskoy"
         android:textSize="26sp" />
 
     <ImageView
@@ -21,25 +21,27 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/textView1"
-        android:layout_centerHorizontal="true"
+        android:layout_centerHorizontal="false"
         android:layout_marginTop="8dp"
         android:adjustViewBounds="true"
-        android:contentDescription="@string/jacek_karpinski"
-        android:src="@drawable/karpinski" />
+        android:contentDescription="@string/mikhail_donskoy"
+        android:src="@drawable/donskoy" />
 
     <ScrollView
         android:id="@+id/scrollView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/imageView1"
+        android:layout_below="@id/textView1"
+        android:layout_toRightOf="@id/imageView1"
         android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
         android:scrollbars="vertical" >
 
         <TextView
             android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/karpinski_desc"
+            android:text="@string/donskoy_desc"
             android:textSize="22sp" />
 
     </ScrollView>
